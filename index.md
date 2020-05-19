@@ -1,7 +1,7 @@
 ## Education
-Master of Science - Information Systems  (Graduation year: 2018-2020)
+Master of Science - Information Systems  (May 2020)
 
-Bachelor of Technology - Biomedical Engineering 
+Bachelor of Technology - Biomedical Engineering (May 2013)
 
 ---
 
@@ -33,49 +33,49 @@ Experienced working on variety of projects in various domains:
 
 ### Healthcare
 
-- [COVID-19 Data Analysis and Visualization](http://example.com/)
+- [COVID-19 Data Analysis and Visualization](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/COVID-19%20Analysis)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-- [Hospital Management System](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
 
-- [Blood Biomarker Development using Deep Learning](http://example.com/)
+- [Blood Biomarker Development using Deep Learning](https://github.com/ashmitan/Adv-in-Data-Science-Final-Project)
 
 #### Finance
-- [Econometric Modeling Data Pipeline](http://example.com/)
+- [Econometric Modeling Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Time%20Series%20Financial%20Models)
+
+- [Regression Model on Insurance Claims data](http://example.com/)
 
 #### Entertainment and Social Media
 
-- [IMDB Data Analysis](/sample_page)
+- [IMDB Data Analysis](https://github.com/ashmitan/IMDB-Analysis)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-- [Social Media Analytics Data Pipeline](http://example.com/)
+- [Social Media Analytics Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Social%20Media%20Analytics%20Pipeline)
 
 #### e-Commerce
 
-- [E-Commerce datawarehouse Analytics](http://example.com/)
+- [E-Commerce datawarehouse Analytics](https://github.com/ashmitan/Retail-DatawareHouse-Analytics)
 
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
 
 #### Road Traffic Analysis 
 
-- [New York Police Arrests and Collision Analysis](http://example.com/)
+- [New York Police Arrests and Collision Analysis](https://github.com/ashmitan/NewYorkPoliceArrestsAnalysis)
 
 - [Smart Parking App Case Study](http://example.com/)
 
-- [License Number Plate Detection Pipeline](http://example.com/)
+- [License Number Plate Detection Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/License%20Number%20Plate%20Detection%20Pipeline)
 
 #### Crime Analysis
 
-- [Boston Crime Analysis](http://example.com/)
+- [Boston Crime Analysis](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/Boston%20Crime%20Analysis%20and%20Statistics)
 
 #### Residential Property
-- [Property Management Database System](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- [Property Management Database System](https://github.com/ashmitan/Rental-Database-Project)
 
 #### Other
 
-- [Machine Learning Hyperparameter Database](http://example.com/)
+- [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
 
 ---
 
@@ -91,20 +91,3 @@ LinkedIn: https://linkedin.com/in/ashmitanigam
 Kaggle : https://www.kaggle.com/ashmitan
 
 -----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
-
-
-
-
----
-
-<!-- Remove above link if you don't want to attibute -->
