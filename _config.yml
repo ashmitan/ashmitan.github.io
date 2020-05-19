@@ -1,11 +1,14 @@
 title: Ashmita Nigam # your name (or website title) here
 logo: "/images/Headshots_February-0052.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Summary
+  Analytical professional with expertise in customer-relationship management & client handling for 5 years providing decision-making insights for business. Highly proficient in Database modeling, reporting and statistical analysis.
   <br><br>
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/ashmitanigam/">View My LinkedIn Profile</a> 
+  Email : ashmitan20@gmail.com
+  Kaggle: kaggle.com/ashmitan
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
