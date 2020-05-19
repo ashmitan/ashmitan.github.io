@@ -17,6 +17,8 @@ Cloud Technologies |         AWS , Microsoft Azure
 Analytical Techniques |      Data Mining, Machine Learning, ETL, Data Visualization
 Other Tools | Dynamics365, Apache Airflow, ElasticSearch Logstash, Kibana, JIRA, ServiceNow, Google Analytics
 
+----
+
 ## Certifications
 Certification Name | Date of Expiry
 ------------ | -------------
