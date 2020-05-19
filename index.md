@@ -1,18 +1,30 @@
-## Portfolio
+## Education
+Master of Science - Information Systems  (Graduation year: 2018-2020)
+
+Bachelor of Technology - Biomedical Engineering 
 
 ---
 
-### Category Name 1 
+### Skills 
+Databases : Oracle SQL, MySQL, SQL Server 2012, MongoDB
+Programming Languages: Python, Java, C, C#
+Data Visualization Tools: Tableau Desktop, Microsoft PowerBI
+Business Intelligence Tools : Alteryx, Talend, SSRS
+Cloud Technologies : AWS , Microsoft Azure
+Analytical Techniques : Data Mining, Machine Learning, ETL, Data Visualization
 
-[Project 1 Title](/sample_page)
+
+### Project Portfolio 
+
+[IMDB Data Analysis](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Property Management Database System](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Hospital Management System](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
