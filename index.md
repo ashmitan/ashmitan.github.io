@@ -47,7 +47,7 @@ Experienced working on variety of projects in various domains:
 
 #### Entertainment and Social Media
 
-- [IMDb Data Analysis](https://github.com/ashmitan/IMDB-Analysis)
+- [Movie Data Analysis and Visualization](https://github.com/ashmitan/IMDB-Analysis)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 - [Social Media Analytics Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Social%20Media%20Analytics%20Pipeline)
