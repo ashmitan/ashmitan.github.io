@@ -29,41 +29,53 @@ Microsoft Dynamics CRM 2013 | No Expiry
 ---
 
 ## Project Portfolio 
+Experienced working on variety of projects in various domains:
 
+### Healthcare
 
-[IMDB Data Analysis](/sample_page)
+- [COVID-19 Data Analysis and Visualization](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-
-[E-Commerce datawarehouse Analytics](http://example.com/)
-
-[New York Police Arrests and Collision Analysis](http://example.com/)
-
-[E-commerce Log Monitoring using ELK Stack](http://example.com/)
-
-[Econometric Modeling Data Pipeline](http://example.com/)
-
-
-[Social Media Analytics Data Pipeline](http://example.com/)
-
-[License Number Plate Detection Pipeline](http://example.com/)
-
-[Blood Biomarker Development using Deep Learning](http://example.com/)
-
-[Machine Learning Hyperparameter Database](http://example.com/)
-
-[Boston Crime Analysis](http://example.com/)
-
-[Smart Parking App Case Study](http://example.com/)
-
-
-[Property Management Database System](/pdf/sample_presentation.pdf)
+- [Hospital Management System](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-[Hospital Management System](http://example.com/)
+- [Blood Biomarker Development using Deep Learning](http://example.com/)
+
+#### Finance
+- [Econometric Modeling Data Pipeline](http://example.com/)
+
+#### Entertainment and Social Media
+
+- [IMDB Data Analysis](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+- [Social Media Analytics Data Pipeline](http://example.com/)
+
+#### e-Commerce
+
+- [E-Commerce datawarehouse Analytics](http://example.com/)
+
+- [E-commerce Log Monitoring using ELK Stack](http://example.com/)
+
+#### Road Traffic Analysis 
+
+- [New York Police Arrests and Collision Analysis](http://example.com/)
+
+- [Smart Parking App Case Study](http://example.com/)
+
+- [License Number Plate Detection Pipeline](http://example.com/)
+
+#### Crime Analysis
+
+- [Boston Crime Analysis](http://example.com/)
+
+#### Residential Property
+- [Property Management Database System](/pdf/sample_presentation.pdf)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+#### Other
+
+- [Machine Learning Hyperparameter Database](http://example.com/)
 
 ---
 
