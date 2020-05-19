@@ -1,6 +1,9 @@
 ## Education
+
+### Northeastern University
 Master of Science - Information Systems  (May 2020)
 
+### Uttar Pradesh Technical University
 Bachelor of Technology - Biomedical Engineering (May 2013)
 
 ---
