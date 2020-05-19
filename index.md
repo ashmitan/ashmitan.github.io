@@ -6,17 +6,17 @@ Bachelor of Technology - Biomedical Engineering
 ---
 
 ## Skills 
-Databases :                     Oracle SQL, MySQL, SQL Server 2012, MongoDB
+Databases |                     Oracle SQL, MySQL, SQL Server 2012, MongoDB
 
-Programming Languages:          Python, Java, C, C#
+Programming Languages |         Python, Java, C, C#
 
-Data Visualization Tools:       Tableau Desktop, Microsoft PowerBI
+Data Visualization Tools |       Tableau Desktop, Microsoft PowerBI
 
-Business Intelligence Tools :   Alteryx, Talend, SSRS
+Business Intelligence Tools|   Alteryx, Talend, SSRS
 
-Cloud Technologies :            AWS , Microsoft Azure
+Cloud Technologies |            AWS , Microsoft Azure
 
-Analytical Techniques :         Data Mining, Machine Learning, ETL, Data Visualization
+Analytical Techniques |        Data Mining, Machine Learning, ETL, Data Visualization
 
 
 ## Project Portfolio 
