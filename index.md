@@ -3,6 +3,7 @@
 #### Uttar Pradesh Technical University | Bachelor of Technology - Biomedical Engineering(May 2013)
 
 ## Skills 
+
 Categories | Tools/ Technologies
 ------------ | -------------
 Databases | Oracle SQL, MySQL, Microsoft SQL Server 2012,PostgreSQL, MongoDB
@@ -13,6 +14,7 @@ Analytical Techniques |      Data Mining, Statistical Analysis, Machine Learning
 Other Tools | Dynamics365, Apache Airflow, ElasticSearch Stack, JIRA, ServiceNow, Google Analytics
 
 ## Certifications
+
 Certification Name | Date of Expiry
 ------------ | -------------
 Google Analytics for Beginners | Mar 2023
