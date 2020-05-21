@@ -8,6 +8,18 @@ Bachelor of Technology - Biomedical Engineering (May 2013)
 
 ---
 
+## Professional Experience
+Atos Global IT Solutions Ltd , Pune, India  (Dec 2016- Jul 2018)
+#### Data Analyst 
+
+Infosys Technologies Ltd, Pune , India (Feb 2014 - Dec 2016)
+#### CRM Analyst
+
+Popup Technologies, Mumbai, India (Aug 2012 - Feb 2014)
+#### Business Data Analyst
+
+---
+
 ## Skills 
 
 Categories | Tools/ Technologies
@@ -41,6 +53,8 @@ Experienced working on variety of projects in various domains:
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
 
+- [Diabetes Prediction using KNN Classifier](https://github.com/ashmitan/Data-Science-Projects/blob/master/ADS_Assignment3.ipynb)
+
 - [Blood Biomarker Development using Deep Learning](https://github.com/ashmitan/Adv-in-Data-Science-Final-Project)
 
 #### Finance
@@ -58,6 +72,8 @@ Experienced working on variety of projects in various domains:
 #### e-Commerce
 
 - [E-Commerce datawarehouse Analytics](https://github.com/ashmitan/Retail-DatawareHouse-Analytics)
+
+- [Predicting Online shopper intentions](https://github.com/ashmitan/Data-Science-Projects/tree/master/Assignment2)
 
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
 
@@ -93,4 +109,5 @@ LinkedIn: https://linkedin.com/in/ashmitanigam
 
 Kaggle : https://www.kaggle.com/ashmitan
 
+ 
 -----
