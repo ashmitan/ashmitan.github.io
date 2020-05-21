@@ -4,14 +4,6 @@ Master of Science - Information Systems  (May 2020)
 ### Uttar Pradesh Technical University
 Bachelor of Technology - Biomedical Engineering (May 2013)
 
-## Professional Experience
-Atos Global IT Solutions Ltd , Pune, India  (Dec 2016- Jul 2018)
-#### Data Analyst 
-Infosys Technologies Ltd, Pune , India (Feb 2014 - Dec 2016)
-#### CRM Analyst
-Popup Technologies, Mumbai, India (Aug 2012 - Feb 2014)
-#### Business Data Analyst
-
 ## Skills 
 
 Categories | Tools/ Technologies
@@ -83,6 +75,13 @@ Experienced working on variety of projects in multiple domains:
 
 - [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
 
+## Professional Experience
+Atos Global IT Solutions Ltd , Pune, India  (Dec 2016- Jul 2018)
+#### Data Analyst 
+Infosys Technologies Ltd, Pune , India (Feb 2014 - Dec 2016)
+#### CRM Analyst
+Popup Technologies, Mumbai, India (Aug 2012 - Feb 2014)
+#### Business Data Analyst
 ## Contact Me
 Please feel free to reach out to any of these platforms 
 
