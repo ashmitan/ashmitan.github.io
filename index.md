@@ -1,15 +1,17 @@
 ## Education
 #### Northeastern University | Master of Science- Information Systems(May 2020)
 #### Uttar Pradesh Technical University | Bachelor of Technology - Biomedical Engineering(May 2013)
+
 ## Skills 
 Categories | Tools/ Technologies
 ------------ | -------------
 Databases | Oracle SQL, MySQL, Microsoft SQL Server 2012,PostgreSQL, MongoDB
 Programming Languages/Web | Python , Java, C# , HTML, CSS, JavaScript, Flask
-Business Intelligence Tools| Alteryx, Talend, SSRS, Scribe Solutions, Advanced Excel(Pivot Tables, Vlookup, Macros), Tableau Desktop,  Microsoft PowerBI
+Business Intelligence Tools| Alteryx, Talend, SSRS, Scribe Solutions, Advanced Excel, Tableau Desktop,  Microsoft PowerBI
 Cloud Technologies |         AWS , Microsoft Azure
 Analytical Techniques |      Data Mining, Statistical Analysis, Machine Learning, ETL, Data Visualization
 Other Tools | Dynamics365, Apache Airflow, ElasticSearch Stack, JIRA, ServiceNow, Google Analytics
+
 ## Certifications
 Certification Name | Date of Expiry
 ------------ | -------------
