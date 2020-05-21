@@ -1,12 +1,9 @@
 ## Education
-
 ### Northeastern University
 Master of Science - Information Systems  (May 2020)
 
 ### Uttar Pradesh Technical University
 Bachelor of Technology - Biomedical Engineering (May 2013)
-
----
 
 ## Professional Experience
 Atos Global IT Solutions Ltd , Pune, India  (Dec 2016- Jul 2018)
@@ -17,8 +14,6 @@ Infosys Technologies Ltd, Pune , India (Feb 2014 - Dec 2016)
 
 Popup Technologies, Mumbai, India (Aug 2012 - Feb 2014)
 #### Business Data Analyst
-
----
 
 ## Skills 
 
@@ -32,19 +27,14 @@ Cloud Technologies |         AWS , Microsoft Azure
 Analytical Techniques |      Data Mining, Machine Learning, ETL, Data Visualization
 Other Tools | Dynamics365, Apache Airflow, ElasticSearch Logstash, Kibana, JIRA, ServiceNow, Google Analytics
 
----
-
 ## Certifications
 
 Certification Name | Date of Expiry
 ------------ | -------------
 Google Analytics for Beginners | Mar 2023
-Microsoft Dynamics CRM 2013 | No Expiry
-
----
 
 ## Project Portfolio 
-Experienced working on variety of projects in various domains:
+Experienced working on variety of projects in multiple domains:
 
 ### Healthcare
 
@@ -96,9 +86,7 @@ Experienced working on variety of projects in various domains:
 
 - [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
 
----
-
-### Contact Me
+## Contact Me
 Please feel free to reach out to any of these platforms 
 
 Email : ashmitan20@gmail.com
@@ -109,5 +97,4 @@ LinkedIn: https://linkedin.com/in/ashmitanigam
 
 Kaggle : https://www.kaggle.com/ashmitan
 
- 
------
+---
