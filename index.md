@@ -24,10 +24,14 @@ Experienced working on variety of projects in multiple domains:
 ### Healthcare
 - [COVID-19 Data Analysis and Visualization](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/COVID-19%20Analysis)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
+Technology Used : Python, Microsoft PowerBI , Tableau
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
+ 
+ Technology Used: Java Swing
 
 - [Diabetes Prediction using KNN Classifier](https://github.com/ashmitan/Data-Science-Projects/blob/master/ADS_Assignment3.ipynb)
+Technology Used: Python
 
 - [Blood Biomarker Development using Deep Learning](https://github.com/ashmitan/Adv-in-Data-Science-Final-Project)
 
