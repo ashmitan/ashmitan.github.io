@@ -50,6 +50,7 @@ Experienced working on variety of projects in multiple domains:
 - [Predicting Online shopper intentions](https://github.com/ashmitan/Data-Science-Projects/tree/master/Assignment2)
 
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
+<img src="images/elkstackproject.jfif?raw=true"/>
 
 #### Road Traffic Analysis 
 
@@ -66,6 +67,7 @@ Experienced working on variety of projects in multiple domains:
 
 #### Residential Property
 - [Property Management Database System](https://github.com/ashmitan/Rental-Database-Project)
+
 #### Other
 
 - [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
