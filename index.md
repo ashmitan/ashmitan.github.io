@@ -58,7 +58,7 @@ Experienced working on variety of projects in multiple domains:
 - [Smart Parking App Case Study](http://example.com/)
 
 - [License Number Plate Detection Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/License%20Number%20Plate%20Detection%20Pipeline)
-<img src="images/licensenumberpipeline.JPG?raw=true"/>
+<img src="images/licensenumberpipeline.jpg?raw=true"/>
 
 #### Crime Analysis
 
