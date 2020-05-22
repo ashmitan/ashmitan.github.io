@@ -88,4 +88,6 @@ LinkedIn: https://linkedin.com/in/ashmitanigam
 
 Kaggle : https://www.kaggle.com/ashmitan
 
+Tableau Public : https://public.tableau.com/profile/ashmita.nigam#!/
+
 ---
