@@ -1,23 +1,3 @@
-## Education
-#### Northeastern University | Master of Science- Information Systems(May 2020)
-#### Uttar Pradesh Technical University | Bachelor of Technology - Biomedical Engineering(May 2013)
-
-## Skills 
-
-Categories | Tools/ Technologies
------------- | -------------
-Databases | Oracle SQL, MySQL, Microsoft SQL Server 2012,PostgreSQL, MongoDB
-Programming Languages/Web | Python , Java, C# , HTML, CSS, JavaScript, Flask
-Business Intelligence Tools| Alteryx, Talend, SSRS, Scribe Solutions, Advanced Excel, Tableau Desktop,  Microsoft PowerBI
-Cloud Technologies |         AWS , Microsoft Azure
-Analytical Techniques |      Data Mining, Statistical Analysis, Machine Learning, ETL, Data Visualization
-Other Tools | Dynamics365, Apache Airflow, ElasticSearch Stack, JIRA, ServiceNow, Google Analytics
-
-## Certifications
-
-Certification Name | Date of Expiry
------------- | -------------
-Google Analytics for Beginners | Mar 2023
 
 ## Project Portfolio 
 Experienced working on variety of projects in multiple domains:
@@ -31,21 +11,32 @@ Technology Used : Python, Microsoft PowerBI , Tableau
  Technology Used: Java Swing
 
 - [Diabetes Prediction using KNN Classifier](https://github.com/ashmitan/Data-Science-Projects/blob/master/ADS_Assignment3.ipynb)
-Technology Used: Python
+  
+  Technology Used: Python
 
 - [Blood Biomarker Development using Deep Learning](https://github.com/ashmitan/Adv-in-Data-Science-Final-Project)
+
+  Technology Used: Python
 
 #### Finance
 - [Econometric Modeling Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Time%20Series%20Financial%20Models)
 
+Technology Used: Python, AWS( S3,EC2, SageMaker), Apache Airflow, Excel
+
 - [Regression Model on Insurance Claims data](http://example.com/)
+
+ Technology Used: Python
 
 #### Entertainment and Social Media
 
 - [Movie Data Analysis and Visualization](https://github.com/ashmitan/IMDB-Analysis)
 <img src="images/imdbanalysis.PNG?raw=true"/>
 
+Technology Used: MS SQL Server 2019, MySQL,Talend, Microsoft PowerBI, Tableau
+
 - [Social Media Analytics Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Social%20Media%20Analytics%20Pipeline)
+
+Technology Used: Python, AWS (S3, EC2, Glue, Athena, QuickSights)
 
 #### e-Commerce
 
@@ -55,6 +46,8 @@ Technology Used: Python
 
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
 <img src="images/elkstackproject.jfif?raw=true"/>
+
+Technology Used: Python, Apache Airflow, ElasticSearch, Logstash, Kibana
 
 #### Road Traffic Analysis 
 
@@ -75,14 +68,6 @@ Technology Used: Python
 #### Other
 
 - [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
-
-## Professional Experience
-Atos Global IT Solutions Ltd , Pune, India  (Dec 2016- Jul 2018)
-#### Data Analyst 
-Infosys Technologies Ltd, Pune , India (Feb 2014 - Dec 2016)
-#### CRM Analyst
-Popup Technologies, Mumbai, India (Aug 2012 - Feb 2014)
-#### Business Data Analyst
 
 ## Contact Me
 Please feel free to reach out to any of these platforms 
