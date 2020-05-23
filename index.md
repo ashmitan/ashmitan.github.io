@@ -4,7 +4,7 @@ Experienced working on variety of projects in multiple domains. Click on project
 ### Healthcare
 - [COVID-19 Data Analysis and Visualization](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/COVID-19%20Analysis)
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/-->
-  Technology Used : Python, Microsoft PowerBI , Tableau
+    Technology Used : Python, Microsoft PowerBI , Tableau
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
  
@@ -46,12 +46,12 @@ Experienced working on variety of projects in multiple domains. Click on project
 
 - [Predicting Online shopper intentions](https://github.com/ashmitan/Data-Science-Projects/tree/master/Assignment2)
   
-  Technology Used: Python
+   Technology Used: Python
 
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
 <img src="images/elkstackproject.jfif?raw=true"/>
 
- Technology Used: Python, Apache Airflow, ElasticSearch, Logstash, Kibana
+  Technology Used: Python, Apache Airflow, ElasticSearch, Logstash, Kibana
 
 #### Road Traffic Analysis 
 
@@ -66,24 +66,24 @@ Experienced working on variety of projects in multiple domains. Click on project
 - [License Number Plate Detection Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/License%20Number%20Plate%20Detection%20Pipeline)
 <img src="images/licensenumberpipeline.jpg?raw=true"/>
  
- Technology Used: Python, AWS, Amazon Turks, Apache Airflow
+   Technology Used: Python, AWS, Amazon Turks, Apache Airflow
 
 #### Crime Analysis
 
 - [Boston Crime Analysis](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/Boston%20Crime%20Analysis%20and%20Statistics)
  
- Technology Used: Python, MongoDB, Microsoft PowerBI
+  Technology Used: Python, MongoDB, Microsoft PowerBI
 
 #### Residential Property
 - [Property Management Database System](https://github.com/ashmitan/Rental-Database-Project)
 
-  Technology Used: MySQL
+   Technology Used: MySQL
 
 #### Other
 
 - [Machine Learning Hyperparameter Database](https://github.com/ashmitan/Hyperparameter-Database)
   
-  Technology Used: Python
+   Technology Used: Python
 
 ## Contact Me
 Please feel free to reach out to any of these platforms 
