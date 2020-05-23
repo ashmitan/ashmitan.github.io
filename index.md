@@ -4,11 +4,12 @@ Experienced working on variety of projects in multiple domains. Click on project
 ### Healthcare
 - [COVID-19 Data Analysis and Visualization](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/COVID-19%20Analysis)
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/-->
-    Technology Used : Python, Microsoft PowerBI , Tableau
+    
+     Technology Used : Python, Microsoft PowerBI , Tableau
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
  
-  Technology Used: Java Swing
+   Technology Used: Java Swing
 
 - [Diabetes Prediction using KNN Classifier](https://github.com/ashmitan/Data-Science-Projects/blob/master/ADS_Assignment3.ipynb)
   
@@ -32,7 +33,7 @@ Experienced working on variety of projects in multiple domains. Click on project
 - [Movie Data Analysis and Visualization](https://github.com/ashmitan/IMDB-Analysis)
 <img src="images/imdbanalysis.PNG?raw=true"/>
 
-  Technology Used: MS SQL Server 2019, MySQL,Talend, Microsoft PowerBI, Tableau
+     Technology Used: MS SQL Server 2019, MySQL,Talend, Microsoft PowerBI, Tableau
 
 - [Social Media Analytics Data Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/Social%20Media%20Analytics%20Pipeline)
 
@@ -51,7 +52,7 @@ Experienced working on variety of projects in multiple domains. Click on project
 - [E-commerce Log Monitoring using ELK Stack](http://example.com/)
 <img src="images/elkstackproject.jfif?raw=true"/>
 
-  Technology Used: Python, Apache Airflow, ElasticSearch, Logstash, Kibana
+     Technology Used: Python, Apache Airflow, ElasticSearch, Logstash, Kibana
 
 #### Road Traffic Analysis 
 
@@ -66,7 +67,7 @@ Experienced working on variety of projects in multiple domains. Click on project
 - [License Number Plate Detection Pipeline](https://github.com/ashmitan/BuildingDataMLPipelines/tree/master/License%20Number%20Plate%20Detection%20Pipeline)
 <img src="images/licensenumberpipeline.jpg?raw=true"/>
  
-   Technology Used: Python, AWS, Amazon Turks, Apache Airflow
+     Technology Used: Python, AWS, Amazon Turks, Apache Airflow
 
 #### Crime Analysis
 
