@@ -4,11 +4,17 @@ Experienced working on variety of projects in multiple domains. Click on project
 ### Healthcare
 - [COVID-19 Data Analysis and Visualization](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/COVID-19%20Analysis)
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/-->
-    
+     
      Technology Used : Python, Microsoft PowerBI , Tableau
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
- 
+   
+   Objective: This project aims to develop an application for a hospital in a network having different teams such as Accounts department, OPD, Hospital wards, Blood Bank etc and demonstrates working of different workflows across the teams. 
+   
+   Key Features: 1. Developed 6 workflow modules across different hospital teams.
+   2. Developed dashboards for doctors, patients and staff who can see their schedule and daily tasks list with reminder facility. 
+   3. This application can be easily connected to hospital databases to store and retrieve information.
+   
    Technology Used: Java Swing
 
 - [Diabetes Prediction using KNN Classifier](https://github.com/ashmitan/Data-Science-Projects/blob/master/ADS_Assignment3.ipynb)
