@@ -79,6 +79,7 @@ Experienced working on variety of projects in multiple domains. Click on project
 #### Crime Analysis
 
 - [Boston Crime Analysis](https://github.com/ashmitan/Data-Analysis-and-Visualization/tree/master/Boston%20Crime%20Analysis%20and%20Statistics)
+ <img src="images/BostonCrimeDash1.PNG?raw=true"/>
  
   Technology Used: Python, MongoDB, Microsoft PowerBI
 
