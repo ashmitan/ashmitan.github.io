@@ -6,6 +6,8 @@ Experienced working on variety of projects in multiple domains. Click on project
 <!--img src="images/dummy_thumbnail.jpg?raw=true"/-->
      
      Technology Used : Python, Microsoft PowerBI , Tableau
+     
+     Objective: Through this project, coronavirus spread across the globe is visualized on various tools and detailed analysis of countries coping with the COVID-19. 
 
 - [Hospital Management System](https://github.com/ashmitan/Hospital-Management-System)
    
