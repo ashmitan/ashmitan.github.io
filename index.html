@@ -24,27 +24,38 @@
       --radius-lg: 18px;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
       background: radial-gradient(circle at top left, #e0ebff 0, #f7f9fc 45%, #ffffff 100%);
       color: var(--text-main);
       line-height: 1.6;
+      /* Render-safety: never hide content */
+      visibility: visible;
     }
 
-    a {
-      color: var(--primary);
-      text-decoration: none;
+    /* Accessibility: Skip link */
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: 8px;
+      background: #111827;
+      color: #fff;
+      padding: 8px 10px;
+      border-radius: 10px;
+      z-index: 9999;
+      font-size: 0.9rem;
+    }
+    .skip-link:focus {
+      left: 12px;
+      outline: 2px solid #fff;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     .page {
       max-width: 1050px;
@@ -79,13 +90,9 @@
       color: var(--text-muted);
     }
 
-    .contact-block a {
-      display: block;
-    }
+    .contact-block a { display: block; }
 
-    nav {
-      margin-bottom: 24px;
-    }
+    nav { margin-bottom: 24px; }
 
     nav ul {
       list-style: none;
@@ -154,14 +161,18 @@
       font-weight: 500;
     }
 
-    .section {
-      margin-bottom: 22px;
-    }
+    .section { margin-bottom: 22px; }
 
     .section h3 {
       font-size: 1.05rem;
       color: var(--primary);
       margin-bottom: 6px;
+    }
+
+    .experience-intro {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 10px;
     }
 
     .experience-item + .experience-item {
@@ -170,40 +181,24 @@
       border-top: 1px dashed var(--border);
     }
 
-    .exp-title {
-      font-weight: 600;
-      font-size: 0.97rem;
-    }
-
-    .exp-meta {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      margin-bottom: 4px;
-    }
+    .exp-title { font-weight: 600; font-size: 0.97rem; }
+    .exp-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px; }
 
     .exp-bullets {
       list-style: disc;
       padding-left: 18px;
       font-size: 0.9rem;
     }
+    .exp-bullets li + li { margin-top: 4px; }
 
-    .exp-bullets li + li {
-      margin-top: 4px;
-    }
-
-    .edu-item {
-      font-size: 0.9rem;
-    }
+    .edu-item { font-size: 0.9rem; }
 
     .projects-list {
       list-style: none;
       padding-left: 0;
       font-size: 0.9rem;
     }
-
-    .projects-list li + li {
-      margin-top: 6px;
-    }
+    .projects-list li + li { margin-top: 6px; }
 
     footer {
       margin-top: 12px;
@@ -213,17 +208,15 @@
     }
 
     @media (max-width: 800px) {
-      .grid {
-        grid-template-columns: 1fr;
-      }
-      .contact-block {
-        text-align: left;
-      }
+      .grid { grid-template-columns: 1fr; }
+      .contact-block { text-align: left; }
     }
   </style>
 </head>
 
 <body>
+  <a class="skip-link" href="#about">Skip to content</a>
+
   <div class="page">
     <header>
       <div class="title-block">
@@ -239,7 +232,7 @@
       </div>
     </header>
 
-    <nav>
+    <nav aria-label="Primary">
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -286,34 +279,22 @@
       </section>
     </div>
 
-    <!-- EXPERIENCE -->
+    <!-- EXPERIENCE (simple text; no interactive timeline) -->
     <section id="experience" class="card section">
-      <h3>Experience</h3>
+      <h3>Professional Experience</h3>
+      <p class="experience-intro">
+        Snapshot of roles and impact across BI strategy, KPI frameworks, Snowflake modeling, SQL optimization, and executive dashboards.
+      </p>
 
       <div class="experience-item">
         <div class="exp-title">Senior BI Analyst / Manager – Cognizant Technology Solutions</div>
         <div class="exp-meta">Plano, TX · 2020 – Present</div>
         <ul class="exp-bullets">
-          <li>
-            Lead BI strategy and KPI framework design for customer care & vehicle servicing analytics,
-            improving reporting speed by <b>40%</b> and analytics adoption by <b>35%</b>.
-          </li>
-          <li>
-            Build enterprise-ready data models in <b>Snowflake</b> and optimize SQL pipelines, reducing
-            compute cost by up to <b>25%</b> while ensuring high data quality.
-          </li>
-          <li>
-            Design executive-ready <b>Tableau and Power BI dashboards</b> with clear visual narratives,
-            empowering VP & C-suite stakeholders to track performance and trends.
-          </li>
-          <li>
-            Modernize ETL pipelines (Talend, Databricks) and implement automated data quality checks,
-            cutting manual effort by <b>50%</b>.
-          </li>
-          <li>
-            Mentor junior BI analysts on dashboard standards, SQL tuning, and dimensional modeling best
-            practices, fostering a strong data culture.
-          </li>
+          <li>Led BI strategy and KPI framework design; improved reporting speed by <b>40%</b> and adoption by <b>35%</b>.</li>
+          <li>Built Snowflake data models and optimized SQL pipelines; reduced compute cost by up to <b>25%</b>.</li>
+          <li>Designed executive-ready <b>Tableau and Power BI</b> dashboards used by VP & C-suite stakeholders.</li>
+          <li>Modernized ETL pipelines (Talend, Databricks) and implemented automated data quality checks; cut manual effort by <b>50%</b>.</li>
+          <li>Mentored junior BI analysts on SQL tuning, dashboard standards, and dimensional modeling best practices.</li>
         </ul>
       </div>
 
@@ -321,18 +302,9 @@
         <div class="exp-title">BI Analyst – Cognizant Technology Solutions</div>
         <div class="exp-meta">Boston, MA · 2016 – 2020</div>
         <ul class="exp-bullets">
-          <li>
-            Delivered customer journey, churn, and retention dashboards using <b>Tableau/Power BI</b>,
-            improving customer experience KPIs by ~<b>20%</b>.
-          </li>
-          <li>
-            Performed large-scale SQL & Python analysis to uncover trends, bottlenecks, and
-            opportunities across telecom and healthcare datasets.
-          </li>
-          <li>
-            Defined business requirements, KPIs, and data rules to align analytics delivery with
-            business objectives and stakeholder expectations.
-          </li>
+          <li>Built Tableau/Power BI dashboards for customer journey, churn, and retention; improved CX KPIs by ~<b>20%</b>.</li>
+          <li>Performed large-scale SQL & Python analysis to uncover trends and operational bottlenecks.</li>
+          <li>Defined requirements, KPIs, and data rules to align analytics deliverables with business objectives.</li>
         </ul>
       </div>
 
@@ -340,13 +312,8 @@
         <div class="exp-title">Software Engineer → Data Analyst</div>
         <div class="exp-meta">2012 – 2016</div>
         <ul class="exp-bullets">
-          <li>
-            Built ETL workflows, SQL procedures, and operational dashboards to support billing, CRM, and
-            claims operations.
-          </li>
-          <li>
-            Collaborated with business users to translate needs into automated, high-visibility reporting.
-          </li>
+          <li>Built ETL workflows, SQL procedures, and operational dashboards supporting billing, CRM, and claims operations.</li>
+          <li>Partnered with stakeholders to translate needs into automated, high-visibility reporting.</li>
         </ul>
       </div>
     </section>
@@ -356,21 +323,16 @@
       <h3>Highlighted Projects</h3>
       <ul class="projects-list">
         <li>
-          <b><a href="https://github.com/ashmitan/IMDB-Analysis" target="_blank" rel="noopener">
-            IMDB Data Analysis Pipeline
-          </a></b> – End-to-end ETL with Talend, SQL Server, and <b>Tableau/Power BI</b> dashboards analyzing movie
-          brands, cast, and box office performance.
+          <b><a href="https://github.com/ashmitan/IMDB-Analysis" target="_blank" rel="noopener">IMDB Data Analysis Pipeline</a></b>
+          – End-to-end ETL with Talend, SQL Server, and <b>Tableau/Power BI</b> dashboards.
         </li>
         <li>
-          <b><a href="https://github.com/ashmitan/Data-Analysis-and-Visualization" target="_blank" rel="noopener">
-            Data Analysis & Visualization
-          </a></b> – Boston crime and COVID-19 analytics, from Python-based data wrangling to interactive
-          Power BI dashboards.
+          <b><a href="https://github.com/ashmitan/Data-Analysis-and-Visualization" target="_blank" rel="noopener">Data Analysis & Visualization</a></b>
+          – Python wrangling + interactive Power BI dashboards.
         </li>
         <li>
-          <b><a href="https://github.com/ashmitan/DeepLearningInHealthcare" target="_blank" rel="noopener">
-            Deep Learning in Healthcare
-          </a></b> – Applied ML & deep learning models to diabetes prediction and biomarker discovery.
+          <b><a href="https://github.com/ashmitan/DeepLearningInHealthcare" target="_blank" rel="noopener">Deep Learning in Healthcare</a></b>
+          – ML/DL models for healthcare prediction use cases.
         </li>
       </ul>
     </section>
@@ -385,12 +347,16 @@
 
     <footer>
       © <span id="year"></span> Ashmita Nigam · Built with GitHub Pages
+      <noscript><div style="margin-top:6px;">(Note: JavaScript is disabled; content still displays normally.)</div></noscript>
     </footer>
   </div>
 
   <script>
-    // Set current year in footer
-    document.getElementById("year").textContent = new Date().getFullYear();
+    // Safe year rendering (won't break page if element missing)
+    (function () {
+      var el = document.getElementById("year");
+      if (el) el.textContent = new Date().getFullYear();
+    })();
   </script>
 </body>
 </html>
