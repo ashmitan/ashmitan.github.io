@@ -1,362 +1,739 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Ashmita Nigam | Senior BI & Analytics</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Senior BI Analyst & Data Analytics Leader - Snowflake, SQL, Tableau, Power BI" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ashmita Nigam – Senior Data & BI Analyst | Snowflake, SQL, Tableau, Power BI, Python, ML | 11+ years turning complex data into strategic decisions.">
+<title>Ashmita Nigam | Senior Data & BI Analyst</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0f1f3d;
+    --teal: #0e7490;
+    --teal-light: #cffafe;
+    --teal-mid: #06b6d4;
+    --slate: #475569;
+    --slate-light: #94a3b8;
+    --bg: #f8fafc;
+    --white: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --accent-bg: #f0fdff;
+    --tag-bg: #e0f2fe;
+    --tag-text: #0369a1;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.05);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text);
+    background: var(--bg);
+  }
 
-  <!-- Simple Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 56px;
+  }
+  .nav-logo {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.1rem;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--slate);
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--teal); }
 
-  <style>
-    :root {
-      --bg: #f7f9fc;
-      --card-bg: #ffffff;
-      --primary: #1f4f9c;
-      --accent: #f4b41a;
-      --text-main: #1f2933;
-      --text-muted: #6b7280;
-      --border: #e5e7eb;
-      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.08);
-      --radius-lg: 18px;
-    }
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3a6e 60%, #0e4f6b 100%);
+    color: white;
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  .hero-inner { max-width: 680px; margin: 0 auto; position: relative; }
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--teal-mid);
+    background: rgba(6,182,212,0.15);
+    border: 1px solid rgba(6,182,212,0.3);
+    border-radius: 100px;
+    padding: 0.3rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2.4rem, 6vw, 3.5rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+  .hero h1 span { color: var(--teal-mid); font-style: italic; }
+  .hero-sub {
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.72);
+    margin-bottom: 2rem;
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  .hero-links {
+    display: flex; flex-wrap: wrap; gap: 0.75rem;
+    justify-content: center; margin-bottom: 2.5rem;
+  }
+  .hero-links a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.5rem 1.1rem;
+    border-radius: 100px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .link-primary {
+    background: var(--teal-mid);
+    color: white;
+  }
+  .link-primary:hover { background: #0891b2; transform: translateY(-1px); }
+  .link-ghost {
+    background: rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.85);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .link-ghost:hover { background: rgba(255,255,255,0.18); }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 2rem;
+    justify-content: center; padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.12);
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: white;
+    display: block;
+    line-height: 1;
+  }
+  .stat-num span { color: var(--teal-mid); }
+  .stat-label {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0.3rem;
+  }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+  /* LAYOUT */
+  main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+  section { padding: 4rem 0 2rem; }
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 0.5rem;
+  }
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+  }
 
-    html { scroll-behavior: smooth; }
+  /* ABOUT */
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem; }
+  .about-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    display: flex; align-items: flex-start; gap: 1rem;
+  }
+  .about-icon {
+    width: 36px; height: 36px; flex-shrink: 0;
+    background: var(--accent-bg);
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+  }
+  .about-card strong { display: block; font-size: 0.85rem; font-weight: 600; color: var(--navy); margin-bottom: 0.2rem; }
+  .about-card p { font-size: 0.83rem; color: var(--slate); line-height: 1.5; }
 
-    body {
-      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: radial-gradient(circle at top left, #e0ebff 0, #f7f9fc 45%, #ffffff 100%);
-      color: var(--text-main);
-      line-height: 1.6;
-      /* Render-safety: never hide content */
-      visibility: visible;
-    }
+  /* SKILLS */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
+  .skill-group {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+  }
+  .skill-group-title {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 0.9rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .tag {
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 0.25rem 0.65rem;
+    border-radius: 100px;
+  }
+  .tag-gray {
+    background: #f1f5f9;
+    color: var(--slate);
+  }
 
-    /* Accessibility: Skip link */
-    .skip-link {
-      position: absolute;
-      left: -999px;
-      top: 8px;
-      background: #111827;
-      color: #fff;
-      padding: 8px 10px;
-      border-radius: 10px;
-      z-index: 9999;
-      font-size: 0.9rem;
-    }
-    .skip-link:focus {
-      left: 12px;
-      outline: 2px solid #fff;
-    }
+  /* EXPERIENCE */
+  .timeline { position: relative; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 8px; bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--teal-mid), var(--border));
+    border-radius: 2px;
+  }
+  .job {
+    padding-left: 2rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+  }
+  .job::before {
+    content: '';
+    position: absolute;
+    left: -5px; top: 8px;
+    width: 12px; height: 12px;
+    background: var(--white);
+    border: 2.5px solid var(--teal-mid);
+    border-radius: 50%;
+  }
+  .job-header { margin-bottom: 0.75rem; }
+  .job-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .job-meta {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  .job-company { font-size: 0.85rem; color: var(--teal); font-weight: 500; }
+  .job-dot { color: var(--slate-light); font-size: 0.7rem; }
+  .job-date { font-size: 0.8rem; color: var(--slate-light); }
+  .job-location { font-size: 0.8rem; color: var(--slate-light); }
+  .job ul { list-style: none; padding: 0; }
+  .job li {
+    font-size: 0.88rem;
+    color: var(--slate);
+    padding: 0.3rem 0 0.3rem 1.1rem;
+    position: relative;
+    line-height: 1.6;
+  }
+  .job li::before {
+    content: '▸';
+    position: absolute; left: 0;
+    color: var(--teal-mid);
+    font-size: 0.7rem;
+    top: 0.45rem;
+  }
+  .job li strong { color: var(--navy); font-weight: 600; }
+  .impact-badge {
+    display: inline-block;
+    background: #ecfdf5;
+    color: #065f46;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    margin-left: 0.3rem;
+  }
 
-    a { color: var(--primary); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+  /* PROJECTS */
+  .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+  .project-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.4rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex; flex-direction: column;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  .project-card:hover {
+    border-color: var(--teal-mid);
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+  }
+  .project-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .project-card h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+  .project-card p {
+    font-size: 0.82rem;
+    color: var(--slate);
+    line-height: 1.55;
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  .project-stack { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .project-link {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--teal);
+    text-decoration: none;
+    margin-top: 0.75rem;
+  }
+  .project-link:hover { color: var(--teal); text-decoration: underline; }
 
-    .page {
-      max-width: 1050px;
-      margin: 0 auto;
-      padding: 24px 16px 40px;
-    }
+  /* EDUCATION */
+  .edu-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--teal-mid);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    display: flex; align-items: center; gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .edu-degree { font-size: 1rem; font-weight: 600; color: var(--navy); }
+  .edu-school { font-size: 0.88rem; color: var(--teal); font-weight: 500; }
+  .edu-year { font-size: 0.82rem; color: var(--slate-light); margin-top: 0.2rem; }
 
-    header {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 20px;
-      align-items: center;
-      margin-bottom: 28px;
-    }
+  /* CONTACT */
+  .contact-section {
+    background: var(--navy);
+    color: white;
+    border-radius: 16px;
+    padding: 3rem 2.5rem;
+    text-align: center;
+    margin: 2rem 0 4rem;
+  }
+  .contact-section h2 { color: white; margin-bottom: 0.75rem; }
+  .contact-section p { color: rgba(255,255,255,0.65); margin-bottom: 2rem; font-size: 0.95rem; }
+  .contact-links { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; }
+  .contact-links a {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    padding: 0.6rem 1.3rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .contact-primary { background: var(--teal-mid); color: white; }
+  .contact-primary:hover { background: #0891b2; }
+  .contact-ghost { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.85); border: 1px solid rgba(255,255,255,0.2); }
+  .contact-ghost:hover { background: rgba(255,255,255,0.18); }
 
-    .title-block h1 {
-      font-size: 1.9rem;
-      letter-spacing: 0.03em;
-    }
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.78rem;
+    color: var(--slate-light);
+    border-top: 1px solid var(--border);
+  }
 
-    .title-block h2 {
-      font-size: 1rem;
-      font-weight: 500;
-      color: var(--text-muted);
-      margin-top: 4px;
-    }
+  /* DIVIDER */
+  .divider { border: none; border-top: 1px solid var(--border); margin: 0; }
 
-    .contact-block {
-      text-align: right;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-    }
-
-    .contact-block a { display: block; }
-
-    nav { margin-bottom: 24px; }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    nav a {
-      font-size: 0.9rem;
-      padding: 6px 12px;
-      border-radius: 999px;
-      border: 1px solid rgba(31, 79, 156, 0.18);
-      background: rgba(255, 255, 255, 0.9);
-      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.04);
-    }
-
-    nav a:hover {
-      background: #1f4f9c;
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 3fr 2fr;
-      gap: 22px;
-      margin-bottom: 22px;
-    }
-
-    .card {
-      background: var(--card-bg);
-      border-radius: var(--radius-lg);
-      padding: 18px 20px;
-      box-shadow: var(--shadow-soft);
-      border: 1px solid rgba(148, 163, 184, 0.2);
-    }
-
-    .card h3 {
-      font-size: 1.1rem;
-      margin-bottom: 6px;
-      color: var(--primary);
-    }
-
-    .pill-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 8px;
-    }
-
-    .pill {
-      font-size: 0.8rem;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: #eef2ff;
-      color: #111827;
-      border: 1px solid #e0e7ff;
-      white-space: nowrap;
-    }
-
-    .pill.highlight {
-      background: #1f4f9c;
-      color: #ffffff;
-      border-color: #1f4f9c;
-      font-weight: 500;
-    }
-
-    .section { margin-bottom: 22px; }
-
-    .section h3 {
-      font-size: 1.05rem;
-      color: var(--primary);
-      margin-bottom: 6px;
-    }
-
-    .experience-intro {
-      font-size: 0.92rem;
-      color: var(--text-muted);
-      margin-bottom: 10px;
-    }
-
-    .experience-item + .experience-item {
-      margin-top: 12px;
-      padding-top: 10px;
-      border-top: 1px dashed var(--border);
-    }
-
-    .exp-title { font-weight: 600; font-size: 0.97rem; }
-    .exp-meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px; }
-
-    .exp-bullets {
-      list-style: disc;
-      padding-left: 18px;
-      font-size: 0.9rem;
-    }
-    .exp-bullets li + li { margin-top: 4px; }
-
-    .edu-item { font-size: 0.9rem; }
-
-    .projects-list {
-      list-style: none;
-      padding-left: 0;
-      font-size: 0.9rem;
-    }
-    .projects-list li + li { margin-top: 6px; }
-
-    footer {
-      margin-top: 12px;
-      font-size: 0.78rem;
-      color: var(--text-muted);
-      text-align: center;
-    }
-
-    @media (max-width: 800px) {
-      .grid { grid-template-columns: 1fr; }
-      .contact-block { text-align: left; }
-    }
-  </style>
+  @media (max-width: 600px) {
+    .about-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2rem; }
+    nav { padding: 0 1rem; }
+    .nav-links { gap: 1.2rem; }
+    .contact-section { padding: 2rem 1.25rem; }
+  }
+</style>
 </head>
-
 <body>
-  <a class="skip-link" href="#about">Skip to content</a>
 
-  <div class="page">
-    <header>
-      <div class="title-block">
-        <h1>ASHMITA NIGAM</h1>
-        <h2>Senior BI Analyst & Data Analytics Leader</h2>
-      </div>
-      <div class="contact-block">
-        <span>Plano, TX</span>
-        <a href="mailto:ashmitan20@gmail.com">ashmitan20@gmail.com</a>
-        <a href="https://public.tableau.com/app/profile/ashmitanigam/vizzes" target="blank" rel="noopener">Tableau Public Profile</a>
-        <a href="https://www.linkedin.com/in/ashmitanigam" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/ashmitan" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </header>
+<nav>
+  <a href="#" class="nav-logo">Ashmita Nigam</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-      </ul>
-    </nav>
-
-    <!-- TOP GRID: SUMMARY + KEY SKILLS -->
-    <div class="grid">
-      <section id="about" class="card">
-        <h3>About</h3>
-        <p style="font-size:0.93rem;">
-          I’m a senior BI & analytics professional with <b>11+ years of IT experience</b>, including
-          <b>5+ years in data analytics & business intelligence</b>. I specialize in building
-          <b>Snowflake-centered data models, advanced SQL pipelines, and Tableau/Power BI dashboards</b>
-          that turn complex data into strategic decisions. I enjoy mentoring teams, defining
-          KPI frameworks, and partnering with leadership to build a truly data-driven culture.
-        </p>
-      </section>
-
-      <section id="skills" class="card">
-        <h3>Key Skills</h3>
-        <div class="pill-row">
-          <span class="pill highlight">BI Strategy</span>
-          <span class="pill highlight">Tableau</span>
-          <span class="pill highlight">Power BI</span>
-          <span class="pill">Snowflake</span>
-          <span class="pill">Databricks SQL</span>
-          <span class="pill">Advanced SQL</span>
-          <span class="pill">Data Modeling</span>
-          <span class="pill">KPI Frameworks</span>
-          <span class="pill">Dashboard Storytelling</span>
-          <span class="pill">ETL (Talend, Alteryx)</span>
-          <span class="pill">Python (analytics & automation)</span>
-          <span class="pill">Data Warehousing</span>
-          <span class="pill">Customer & Call Center Analytics</span>
-          <span class="pill">Healthcare & Telecom</span>
-          <span class="pill">Automotive Analytics</span>
-          <span class="pill">Leadership & Mentoring</span>
-          <span class="pill">Business Analysis</span>
-        </div>
-      </section>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">Open to new opportunities</div>
+    <h1>Senior Data &amp; <span>BI Analyst</span></h1>
+    <p class="hero-sub">
+      11+ years turning complex data into executive-ready decisions.<br>
+      Snowflake · SQL · Tableau · Power BI · Python · Machine Learning
+    </p>
+    <div class="hero-links">
+      <a href="mailto:ashmitan20@gmail.com" class="link-primary">✉ Get in touch</a>
+      <a href="https://www.linkedin.com/in/ashmitanigam" target="_blank" class="link-ghost">LinkedIn ↗</a>
+      <a href="https://github.com/ashmitan" target="_blank" class="link-ghost">GitHub ↗</a>
+      <a href="https://public.tableau.com/app/profile/ashmitanigam/vizzes" target="_blank" class="link-ghost">Tableau Public ↗</a>
     </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">11<span>+</span></span>
+        <div class="stat-label">Years experience</div>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5<span>+</span></span>
+        <div class="stat-label">In data & BI</div>
+      </div>
+      <div class="stat">
+        <span class="stat-num">40<span>%</span></span>
+        <div class="stat-label">Reporting speed gains</div>
+      </div>
+      <div class="stat">
+        <span class="stat-num">50<span>%</span></span>
+        <div class="stat-label">Manual effort reduced</div>
+      </div>
+    </div>
+  </div>
+</header>
 
-    <!-- EXPERIENCE (simple text; no interactive timeline) -->
-    <section id="experience" class="card section">
-      <h3>Professional Experience</h3>
-      <p class="experience-intro">
-        Snapshot of roles and impact across BI strategy, KPI frameworks, Snowflake modeling, SQL optimization, and executive dashboards.
-      </p>
+<main>
 
-      <div class="experience-item">
-        <div class="exp-title">Senior BI Analyst / Manager – Cognizant Technology Solutions</div>
-        <div class="exp-meta">Plano, TX · 2020 – Present</div>
-        <ul class="exp-bullets">
-          <li>Led BI strategy and KPI framework design; improved reporting speed by <b>40%</b> and adoption by <b>35%</b>.</li>
-          <li>Built Snowflake data models and optimized SQL pipelines; reduced compute cost by up to <b>25%</b>.</li>
-          <li>Designed executive-ready <b>Tableau and Power BI</b> dashboards used by VP & C-suite stakeholders.</li>
-          <li>Modernized ETL pipelines (Talend, Databricks) and implemented automated data quality checks; cut manual effort by <b>50%</b>.</li>
-          <li>Mentored junior BI analysts on SQL tuning, dashboard standards, and dimensional modeling best practices.</li>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About me</div>
+    <h2>Bridging data and decisions</h2>
+    <p style="color: var(--slate); max-width: 620px; margin-bottom: 1.75rem;">
+      I'm a senior BI and analytics professional based in Plano, TX with deep expertise in Snowflake-centered data modeling, advanced SQL pipelines, and executive-ready dashboards. I enjoy mentoring teams, defining KPI frameworks, and partnering with leadership to build a truly data-driven culture across healthcare, telecom, and automotive domains.
+    </p>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">📊</div>
+        <div>
+          <strong>BI Strategy & KPIs</strong>
+          <p>Defining KPI frameworks and BI roadmaps that align analytics with business objectives.</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">❄️</div>
+        <div>
+          <strong>Snowflake & Data Modeling</strong>
+          <p>Building scalable, cost-optimized data warehouses with dimensional modeling best practices.</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">🤖</div>
+        <div>
+          <strong>ML & Predictive Analytics</strong>
+          <p>Deep learning models for healthcare prediction and Python-powered automation pipelines.</p>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">🎯</div>
+        <div>
+          <strong>Executive Dashboards</strong>
+          <p>Tableau and Power BI dashboards trusted by VP & C-suite to drive strategy decisions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">Technical skills</div>
+    <h2>Tools & technologies</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-title">BI & Visualization</div>
+        <div class="skill-tags">
+          <span class="tag">Tableau</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Tableau Public</span>
+          <span class="tag">Dashboard Storytelling</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Data & Warehousing</div>
+        <div class="skill-tags">
+          <span class="tag">Snowflake</span>
+          <span class="tag">Databricks</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">Data Modeling</span>
+          <span class="tag">Data Warehousing</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Languages & Querying</div>
+        <div class="skill-tags">
+          <span class="tag">Advanced SQL</span>
+          <span class="tag">Python</span>
+          <span class="tag">PySpark</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">ETL & Pipeline</div>
+        <div class="skill-tags">
+          <span class="tag">Talend</span>
+          <span class="tag">Alteryx</span>
+          <span class="tag">ETL Design</span>
+          <span class="tag">Data Quality</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">ML & Analytics</div>
+        <div class="skill-tags">
+          <span class="tag">scikit-learn</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Predictive Modeling</span>
+          <span class="tag">Deep Learning</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Domain expertise</div>
+        <div class="skill-tags">
+          <span class="tag tag-gray">Healthcare</span>
+          <span class="tag tag-gray">Telecom</span>
+          <span class="tag tag-gray">Automotive</span>
+          <span class="tag tag-gray">Call Center</span>
+          <span class="tag tag-gray">KPI Frameworks</span>
+          <span class="tag tag-gray">Mentoring</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">Career timeline</div>
+    <h2>Professional experience</h2>
+    <div class="timeline">
+
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">Senior BI Analyst / Manager</div>
+          <div class="job-meta">
+            <span class="job-company">Cognizant Technology Solutions</span>
+            <span class="job-dot">·</span>
+            <span class="job-location">Plano, TX</span>
+            <span class="job-dot">·</span>
+            <span class="job-date">2020 – Present</span>
+          </div>
+        </div>
+        <ul>
+          <li>Led enterprise BI strategy and KPI framework design, improving reporting speed by <strong>40%</strong> and adoption by <strong>35%</strong> across business units. <span class="impact-badge">↑ 40%</span></li>
+          <li>Designed and optimized <strong>Snowflake</strong> data models and SQL pipelines, reducing compute costs by up to <strong>25%</strong> while improving query performance. <span class="impact-badge">↓ 25% cost</span></li>
+          <li>Built executive-ready <strong>Tableau and Power BI</strong> dashboards used daily by VP and C-suite stakeholders to drive strategic decisions.</li>
+          <li>Modernized ETL pipelines using <strong>Talend and Databricks</strong>; implemented automated data quality checks cutting manual effort by <strong>50%</strong>. <span class="impact-badge">↓ 50% effort</span></li>
+          <li>Mentored junior BI analysts on SQL optimization, dimensional modeling, and dashboard design standards.</li>
         </ul>
       </div>
 
-      <div class="experience-item">
-        <div class="exp-title">BI Analyst – Cognizant Technology Solutions</div>
-        <div class="exp-meta">Boston, MA · 2016 – 2020</div>
-        <ul class="exp-bullets">
-          <li>Built Tableau/Power BI dashboards for customer journey, churn, and retention; improved CX KPIs by ~<b>20%</b>.</li>
-          <li>Performed large-scale SQL & Python analysis to uncover trends and operational bottlenecks.</li>
-          <li>Defined requirements, KPIs, and data rules to align analytics deliverables with business objectives.</li>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">BI Analyst</div>
+          <div class="job-meta">
+            <span class="job-company">Cognizant Technology Solutions</span>
+            <span class="job-dot">·</span>
+            <span class="job-location">Boston, MA</span>
+            <span class="job-dot">·</span>
+            <span class="job-date">2016 – 2020</span>
+          </div>
+        </div>
+        <ul>
+          <li>Built <strong>Tableau / Power BI</strong> dashboards for customer journey, churn, and retention analytics; improved CX KPIs by ~<strong>20%</strong>. <span class="impact-badge">↑ 20% CX</span></li>
+          <li>Performed large-scale <strong>SQL and Python</strong> analysis to surface trends and operational bottlenecks across multi-million-row datasets.</li>
+          <li>Defined KPIs and data rules to align analytics deliverables with business objectives across healthcare and telecom clients.</li>
         </ul>
       </div>
 
-      <div class="experience-item">
-        <div class="exp-title">Software Engineer → Data Analyst</div>
-        <div class="exp-meta">2012 – 2016</div>
-        <ul class="exp-bullets">
-          <li>Built ETL workflows, SQL procedures, and operational dashboards supporting billing, CRM, and claims operations.</li>
-          <li>Partnered with stakeholders to translate needs into automated, high-visibility reporting.</li>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">Data Analyst — New England Complex Systems Institute</div>
+          <div class="job-meta">
+            <span class="job-company">NECSI</span>
+            <span class="job-dot">·</span>
+            <span class="job-location">Cambridge, MA</span>
+            <span class="job-dot">·</span>
+            <span class="job-date">~2015 – 2016</span>
+          </div>
+        </div>
+        <ul>
+          <li>Applied statistical modeling and data analysis to complex systems research, producing insights used in academic and policy contexts.</li>
+          <li>Developed <strong>Python</strong>-based data processing pipelines to clean, transform, and analyze large heterogeneous public datasets.</li>
         </ul>
       </div>
-    </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="card section">
-      <h3>Highlighted Projects</h3>
-      <ul class="projects-list">
-        <li>
-          <b><a href="https://github.com/ashmitan/IMDB-Analysis" target="_blank" rel="noopener">IMDB Data Analysis Pipeline</a></b>
-          – End-to-end ETL with Talend, SQL Server, and <b>Tableau/Power BI</b> dashboards.
-        </li>
-        <li>
-          <b><a href="https://github.com/ashmitan/Data-Analysis-and-Visualization" target="_blank" rel="noopener">Data Analysis & Visualization</a></b>
-          – Python wrangling + interactive Power BI dashboards.
-        </li>
-        <li>
-          <b><a href="https://github.com/ashmitan/DeepLearningInHealthcare" target="_blank" rel="noopener">Deep Learning in Healthcare</a></b>
-          – ML/DL models for healthcare prediction use cases.
-        </li>
-      </ul>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="card section">
-      <h3>Education</h3>
-      <div class="edu-item">
-        <b>Northeastern University</b> – MS in Information Systems · 2020
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">Software Engineer → Data Analyst</div>
+          <div class="job-meta">
+            <span class="job-company">Atos &amp; Infosys</span>
+            <span class="job-dot">·</span>
+            <span class="job-date">2012 – 2016</span>
+          </div>
+        </div>
+        <ul>
+          <li>Built ETL workflows, SQL stored procedures, and operational dashboards supporting billing, CRM, and claims operations for enterprise clients.</li>
+          <li>Partnered with stakeholders to translate business needs into automated, high-visibility reporting solutions.</li>
+          <li>Gained deep foundations in enterprise data systems, relational databases, and software engineering at scale.</li>
+        </ul>
       </div>
-    </section>
 
-    <footer>
-      © <span id="year"></span> Ashmita Nigam · Built with GitHub Pages
-      <noscript><div style="margin-top:6px;">(Note: JavaScript is disabled; content still displays normally.)</div></noscript>
-    </footer>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Portfolio</div>
+    <h2>Highlighted projects</h2>
+    <div class="projects-grid">
+
+      <a href="https://github.com/ashmitan/IMDB-Analysis" target="_blank" class="project-card">
+        <div class="project-icon">🎬</div>
+        <h3>IMDB Data Analysis Pipeline</h3>
+        <p>End-to-end ETL pipeline ingesting and transforming IMDB data with Talend and SQL Server, delivering interactive Tableau and Power BI dashboards for trend analysis.</p>
+        <div class="project-stack">
+          <span class="tag">Talend</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">Tableau</span>
+          <span class="tag">Power BI</span>
+        </div>
+        <span class="project-link">View on GitHub ↗</span>
+      </a>
+
+      <a href="https://github.com/ashmitan/Data-Analysis-and-Visualization" target="_blank" class="project-card">
+        <div class="project-icon">📈</div>
+        <h3>Data Analysis & Visualization</h3>
+        <p>Multi-project portfolio covering exploratory data analysis, statistical modeling, and interactive Power BI dashboards built with Python data wrangling pipelines.</p>
+        <div class="project-stack">
+          <span class="tag">Python</span>
+          <span class="tag">Pandas</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Seaborn</span>
+        </div>
+        <span class="project-link">View on GitHub ↗</span>
+      </a>
+
+      <a href="https://github.com/ashmitan/DeepLearningInHealthcare" target="_blank" class="project-card">
+        <div class="project-icon">🧬</div>
+        <h3>Deep Learning in Healthcare</h3>
+        <p>Compared CNNs, RNNs, and feedforward neural networks on healthcare datasets. Includes hyperparameter tuning experiments with measurable accuracy improvements over baseline.</p>
+        <div class="project-stack">
+          <span class="tag">TensorFlow</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">Keras</span>
+          <span class="tag">Python</span>
+        </div>
+        <span class="project-link">View on GitHub ↗</span>
+      </a>
+
+      <a href="https://github.com/ashmitan/BuildingDataMLPipelines" target="_blank" class="project-card">
+        <div class="project-icon">⚙️</div>
+        <h3>Building Data & ML Pipelines</h3>
+        <p>Production-style scripts for end-to-end data pipeline development — ingestion, transformation, validation, and loading across multiple data source types.</p>
+        <div class="project-stack">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Airflow</span>
+          <span class="tag">Pandas</span>
+        </div>
+        <span class="project-link">View on GitHub ↗</span>
+      </a>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- EDUCATION -->
+  <section id="education" style="padding-bottom: 2rem;">
+    <div class="section-label">Education</div>
+    <h2>Academic background</h2>
+    <div class="edu-card">
+      <div style="font-size: 2rem;">🎓</div>
+      <div style="flex: 1;">
+        <div class="edu-degree">MS in Information Systems</div>
+        <div class="edu-school">Northeastern University</div>
+        <div class="edu-year">Class of 2020 · Boston, MA</div>
+      </div>
+      <div class="skill-tags">
+        <span class="tag tag-gray">Data Engineering</span>
+        <span class="tag tag-gray">Database Systems</span>
+        <span class="tag tag-gray">Business Analytics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <div id="contact" class="contact-section">
+    <h2>Let's work together</h2>
+    <p>Open to senior data analyst, BI manager, and analytics engineering roles.<br>Based in Plano, TX — open to hybrid and remote.</p>
+    <div class="contact-links">
+      <a href="mailto:ashmitan20@gmail.com" class="contact-primary">✉ ashmitan20@gmail.com</a>
+      <a href="https://www.linkedin.com/in/ashmitanigam" target="_blank" class="contact-ghost">LinkedIn ↗</a>
+      <a href="https://github.com/ashmitan" target="_blank" class="contact-ghost">GitHub ↗</a>
+      <a href="https://public.tableau.com/app/profile/ashmitanigam/vizzes" target="_blank" class="contact-ghost">Tableau Public ↗</a>
+    </div>
   </div>
 
-  <script>
-    // Safe year rendering (won't break page if element missing)
-    (function () {
-      var el = document.getElementById("year");
-      if (el) el.textContent = new Date().getFullYear();
-    })();
-  </script>
+</main>
+
+<footer>
+  © 2026 Ashmita Nigam · Plano, TX · Built with care
+</footer>
+
 </body>
 </html>
